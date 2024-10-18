@@ -1,0 +1,105 @@
+/* Reset básico */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos do logo */
+.foralogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90vw; /* Consolidado aqui */
+}
+
+.logo img {
+  margin-top: 4px;
+  height: 15vh;
+  width: 11vw;
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+  margin-bottom: 10px; /* Espaço abaixo da imagem */
+  border-radius: 50%; /* Torna a imagem circular */
+  /*border: 3px solid #fff; /* Borda branca */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombreamento da imagem */
+}
+
+/* Estilos do cabeçalho */
+.header {
+  display: flex;
+  width: 98.95vw;
+  background-color: #f9fd0f;
+  color: black;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.432);
+  margin-bottom: 5px;
+}
+
+/* Estilos do título */
+.uhuuu h1 {
+  font-size: 3em;
+  font-style: italic;
+  text-align: center;
+  font-family: cursive;
+  color: #23023c;
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.576);
+}
+
+/* Estilos da lista de formulários */
+.listform {
+  display: flex;
+}
+
+.listform ul {
+  list-style: none;
+  display: flex;
+}
+
+/* Estilos da lista do cabeçalho */
+.headerlist {
+  display: flex;
+  width: 40vw;
+}
+
+.headerlist a {
+  padding: 2px 15px; /* Consolidado */
+  border-radius: 5px; /* Aplicado aos quatro cantos */
+  font-weight: bold;
+  font-family: cursive;
+  color: #23023c;
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.576);
+  transition: background-color 1s, color 1s; /* Adicionado para o hover */
+}
+
+.headerlist a:hover {
+  background-color: #007BFF;
+  color: white;
+}
+
+/* Estilos do formulário */
+.headerform {
+  width: 47vw;
+  display: flex;
+  justify-content: flex-end; /* Alterado para flex-end */
+  margin-bottom: 2px;
+}
+
+.inputtext {
+  width: 18vw;
+  border: solid 1px rgba(0, 0, 0, 0.823);
+}
+
+.headerformbutton {
+  padding: 2px;
+  margin-left: 2px;
+  color: white;
+  font-weight: bold;
+  background-color: #007BFF;
+  border-radius: 5px;
+}
+
+/* Estilos da classe .carousel */
+.carousel {
+  display: contents;
+}
